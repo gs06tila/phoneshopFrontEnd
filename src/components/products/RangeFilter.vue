@@ -6,7 +6,7 @@
       :min="min"
       :max="max"
       :interval="interval || 1"
-      :tooltip="always"
+      :tooltip=always
       width="90%"
       @change="filter"
     >
