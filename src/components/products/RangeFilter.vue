@@ -16,6 +16,7 @@
 
 <script>
 import vueSlider from "vue-slider-component";
+import "vue-slider-component/theme/default.css";
 
 export default {
   name: "range-filter",
