@@ -70,4 +70,19 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.filter-item {
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+
+  &.active {
+    font-weight: bold;
+    color: #17a2b8;
+    border-color: #17a2b8;
+  }
+}
+</style>
